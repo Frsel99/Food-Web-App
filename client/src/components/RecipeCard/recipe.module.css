@@ -1,0 +1,62 @@
+/* chawp */
+
+.dietList li {
+    list-style-type: none;
+}
+
+
+.recipeCard {
+    position: relative;
+    width: 80%;
+    min-height: 30rem;
+    color: rgba(255, 255, 255, 0.829);
+    background-image: url('https://us.123rf.com/450wm/nataliazakharova/nataliazakharova1705/nataliazakharova170500081/78291390-fondo-liso-verde-oscuro-para-el-sitio-web-patr%C3%B3n-fondo-de-pantalla-borroso.jpg?ver=6');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: #E8C88F 4px solid;
+    outline: #DAC6A3 4px solid;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: chawp;
+    transition: 0.4s ease;
+    margin: 1.5rem;
+    
+}
+
+.recipeCard img {
+    border-radius: 0.8rem;
+    max-width: 20rem;
+}
+
+
+.recipeCard:hover {
+    width: 85%;
+    min-height: 32rem;
+}
+
+.calficationSpan {
+    position: absolute;
+    left: 7%;
+    bottom: 2%;
+    font-size: 1.1rem;
+}
+
+.healthySpan {
+    position: absolute;
+    right: 7%;
+    bottom: 2%;
+    font-size: 1.1rem;
+}
+
+.typeOfDietContainer {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.dietList {
+    line-height: 1.6rem;
+    list-style: none;
+}

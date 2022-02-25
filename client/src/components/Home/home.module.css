@@ -1,0 +1,124 @@
+/*  chawp*/
+
+.navBarHome {
+    font-family: chawp;
+    font-size: 2rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+    background-image: url('https://us.123rf.com/450wm/nataliazakharova/nataliazakharova1705/nataliazakharova170500081/78291390-fondo-liso-verde-oscuro-para-el-sitio-web-patr%C3%B3n-fondo-de-pantalla-borroso.jpg?ver=6');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.829);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border: #E8C88F 5px solid;
+    outline: #DAC6A3 5px solid;
+    border-top: none;
+}
+
+.navBarHome a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.searchInput {
+    background: none;
+    border: none;
+    border-bottom: 2px dashed rgba(255, 255, 255, 0.829);
+    color: rgba(255, 255, 255, 0.829);
+    font-family: chawp;
+    letter-spacing: 0.2rem;
+}
+
+.searchButton {
+    position: relative;
+    top: 4px;
+    background: none;
+    border: none;
+    font-family: chawp;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.829);
+}
+
+.searchButton:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.filterSelectors {
+    appearance: none;
+    border: none;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    font-family: fineBb;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    background: none;
+    color: rgba(255, 255, 255, 0.829);
+    border: 2px solid rgba(255, 255, 255, 0.829);
+    padding: 0.5rem;
+}
+
+.filterSelectors:focus {
+    background-color: rgba(0, 0, 0, 0.616);
+}
+
+.labelsFilters {
+    font-size: 1.5rem;
+}
+
+.labelsFilters:hover {
+    cursor: pointer;
+}
+
+.filterButton {
+    background: none;
+    border: none;
+    font-family: chawp;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.829);
+}
+
+.filterButton:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.createRecipe {
+    display: block;
+}
+
+.createRecipe:hover {
+    font-size: 2.5rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.anchorRecipeCard {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}

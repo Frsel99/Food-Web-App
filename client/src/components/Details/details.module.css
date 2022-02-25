@@ -1,0 +1,115 @@
+.detailsMainDiv {
+    padding: 2rem;
+}
+
+.detailsContainer {
+    padding: 2rem;
+    margin: 4rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    text-align: center;
+    background-image: url('https://us.123rf.com/450wm/nataliazakharova/nataliazakharova1705/nataliazakharova170500081/78291390-fondo-liso-verde-oscuro-para-el-sitio-web-patr%C3%B3n-fondo-de-pantalla-borroso.jpg?ver=6');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    color: rgba(255, 255, 255, 0.829);
+    font-family: chawp;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+}
+
+
+.returnArrow {
+    margin-top: 2rem;
+}
+
+.returnArrow::before {
+    filter: brightness(0%);
+    background-image: url('https://www.onlygfx.com/wp-content/uploads/2018/11/14-chalk-arrows-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 16rem;
+    height: 8rem;
+    content: "";
+    transform: scaleX(-1);
+    transition: 0.4s ease;
+
+}
+
+.returnArrow:hover::before {
+    width: 18rem;
+    transform: scaleX(-1.2);
+}
+
+.detailsRecipeName {
+    font-size: 2rem;
+    margin: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.detailsContainer img {
+    border-radius: 1rem;
+    margin: 1.5rem;
+    max-width: 30rem;
+}
+
+.detailsDescription {
+    width: 80%;
+    margin: auto;
+}
+.detailsDescription a {
+    color: inherit;
+}
+
+.detailsScoresContainer {
+    margin: 3rem;
+}
+
+.detailsCalificationSpan {
+    margin: 8rem;
+}
+
+.detailsHealthySpan {
+    margin: 8rem;
+}
+
+.dietAndDishContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.dishTypeContainer {
+    display: inline-block;
+    margin-top: 1.5rem;
+}
+
+
+.dishTypeList {
+    list-style: none;
+    margin: 2rem;
+}
+
+.dietsSpan {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.detailsDietsContainer li {
+    display: flex;
+    justify-content: center;
+}
+
+
+.stepsToStepContainer {
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
+}
+
+.stepsToStepContainer li {
+    margin: 1.5rem;
+}

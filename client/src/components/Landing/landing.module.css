@@ -1,0 +1,62 @@
+@font-face {
+    font-family: chalkyView;
+    src: url('../ChalkyView.ttf');
+}
+
+@font-face {
+    font-family: chawp;
+    src: url(../chawp.ttf);
+}
+
+@font-face {
+    font-family: fineBb;
+    src: url(../Fine\ Blackboard.ttf);
+}
+
+
+body {
+    background-image: url('./test1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.buttonLanding {
+    font-family: chalkyView;
+    font-size: 4rem;
+    color: rgba(88,191,140,255);
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 15%;
+    height: 5%;
+    background: none;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.buttonLanding:hover {
+    font-size: 5rem;
+    cursor: pointer;
+    bottom: 5%;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1700px) {
+    body {
+        background-image: url('./test2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    body {
+        background-image: url('./test3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

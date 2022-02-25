@@ -1,0 +1,26 @@
+.paginationContainer ul {
+    list-style: none;
+    text-align: center;
+    padding: 1rem;
+}
+
+.paginationContainer li {
+    display: inline-block;
+    margin: 0.2rem;
+}
+
+.paginationButton {
+    font-size: 1.5rem;
+    font-family: fineBb;
+    background-image: url('https://us.123rf.com/450wm/nataliazakharova/nataliazakharova1705/nataliazakharova170500081/78291390-fondo-liso-verde-oscuro-para-el-sitio-web-patr%C3%B3n-fondo-de-pantalla-borroso.jpg?ver=6');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.829);
+    min-width: 2.2rem;
+    border: #E8C88F 1px solid;
+    outline: #DAC6A3 1px solid;
+}
+
+.paginationButton:hover {
+    cursor: pointer;
+}
